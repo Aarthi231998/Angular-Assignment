@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <script src="index.js"></script>
+        <link href="index.css" rel="stylesheet">
+        <link href="second.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="header">
+            <div id="title">ABC Inc </div>
+            <div id="menu">
+                <ul>
+                    <li> Home</li>
+                    <li> Projects</li>
+                    <li> Clients </li>
+                    <li> Products</li>
+                    <li> Reach us</li>
+                </ul>
+            </div>
+            <div id ="social-media">
+                <img src="images/facebook.png" id="fb" class="sicon">
+                <img src="images/instagram.png" id="insta" class="sicon">
+                <img src="images/twitter.png" id="twit" class="sicon">
+            </div>
+        </div>
+
+        
+
+        <div id="slide-area">
+            <div id="slide-show">
+                <img src="first.jpg" id="img1">
+                <img src="left.png" id="left-icon" class="icon"
+                Onclick ="changeImage('left')">
+                <img src="right.png" id="right-icon" class="icon"
+                Onclick ="changeImage('right')">
+            </div>
+        </div>
+        <div id="hide-show">
+            <img class="icon1" id="up" src="images/up.png" onClick="hideSlide()">
+            <img class="icon1" id="down" src="images/down.png" onClick="showSlide()" style="display:none">
+        </div>
+        <div id="services-wrapper">
+
+        </div>
+        <div id="footer">
+              &copy; all copyrights reserved , ABC inc 2023
+            </div>
+    </body>
+    <script src="data.js"></script>
+</html>

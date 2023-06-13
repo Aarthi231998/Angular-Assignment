@@ -1,0 +1,41 @@
+#header{
+    /* margin-top: -10px; */
+    margin-left: -9px;
+    background-color:#d4450d ;
+    height:50px;
+    border-radius: 2px;
+    overflow: hidden;  
+    /* border-style: ridge; */
+    /* border-color: whitesmoke; */
+}
+#header ul{
+    list-style: none;
+    /* padding-top: 15px; */
+}
+#nav{
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    display: inline;
+    margin-left: 30px;
+    text-shadow: 2px 2px 2px #584703;
+    /* transform: padding 2s ease; */
+}
+#nav:hover{
+    cursor: pointer;
+
+   
+}
+#header #social-media{
+    display: inline;
+    position: absolute;
+    margin-top: -56px;
+    overflow: hidden;
+    left:90%;
+}
+#social-media img{
+    width:70px;
+    height:55px;
+    float:left;
+    
+}
